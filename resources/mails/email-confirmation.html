@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CodegymJira - email confirmation</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+</head>
+<body>
+<p th:text="'Hello, ' + ${user.firstName} + '.'"/>
+<p>In order to finish the set up of your account and start using CodegymJira, please confirm that you have entered your email correctly.</p>
+<a th:href="${confirmationUrl}">Confirm email</a>
+</body>
+</html>
