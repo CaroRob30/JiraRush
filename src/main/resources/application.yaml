@@ -16,7 +16,11 @@ spring:
 
     # validate db by model
     hibernate:
+<<<<<<< HEAD
       ddl-auto: update
+=======
+      ddl-auto: validate
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
 
     properties:
       #  http://docs.jboss.org/hibernate/orm/5.3/userguide/html_single/Hibernate_User_Guide.html#configurations
@@ -61,6 +65,13 @@ spring:
             scope:
               - email
               - profile
+<<<<<<< HEAD
+=======
+          facebook:
+            client-id: 991967452279681
+            client-secret: ec0cd4af250938789118ae8dae51fb66
+            scope: email
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
           gitlab:
             client-id: de8dd2c629a08481d935e519ae4636634e97d74c1cab7fcbcb47e920e1ac1965
             client-secret: gloas-74923caa0ca5708d7b3761335c6043cb5343ae1ee2a9da3dba9539183710cf20
@@ -69,6 +80,14 @@ spring:
             authorization-grant-type: authorization_code
             scope: read_user
         provider:
+<<<<<<< HEAD
+=======
+          facebook:
+            authorization-uri: https://graph.facebook.com/oauth/authorize
+            token-uri: https://graph.facebook.com/oauth/access_token
+            user-info-uri: https://graph.facebook.com/me
+            user-name-attribute: response
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
           gitlab:
             authorization-uri: https://gitlab.com/oauth/authorize
             token-uri: https://gitlab.com/oauth/token

@@ -3,7 +3,11 @@ app:
   host-url: http://localhost
 spring:
   datasource:
+<<<<<<< HEAD
     url: jdbc:postgresql://localhost:5432/jiraf
+=======
+    url: jdbc:postgresql://localhost:5432/jira
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
     username: jira
     password: CodeGymJira
 

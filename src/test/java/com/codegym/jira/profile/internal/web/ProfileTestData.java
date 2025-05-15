@@ -44,6 +44,10 @@ public class ProfileTestData {
                         new ContactTo("website", "new.com"),
                         new ContactTo("github", "newGitHub"),
                         new ContactTo("tg", "newTg"),
+<<<<<<< HEAD
+=======
+                        new ContactTo("facebook", "newFacebook"),
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
                         new ContactTo("linkedin", "newLinkedin")));
     }
 

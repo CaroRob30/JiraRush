@@ -1,5 +1,10 @@
 -- populate users
+<<<<<<< HEAD
 DELETE FROM users;
+=======
+DELETE
+FROM USERS;
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
 alter
 sequence USERS_ID_SEQ restart with 1;
 insert into USERS (EMAIL, PASSWORD, FIRST_NAME, LAST_NAME, DISPLAY_NAME)
@@ -52,7 +57,12 @@ values (1, 'skype', 'userSkype'),
        (1, 'mobile', '+01234567890'),
        (1, 'website', 'user.com'),
        (2, 'github', 'adminGitHub'),
+<<<<<<< HEAD
        (2, 'telegram', 'adminTg');
+=======
+       (2, 'telegram', 'adminTg'),
+       (2, 'facebook', 'adminFb');
+>>>>>>> c7403cfa5b1cf74c9aeaf79920194c609e09463a
 
 delete
 from ATTACHMENT;
